@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nebula eSports</title>
+    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Nebula eSports" name="description">
+    <meta content="" name="keywords">
+    <meta content="" name="author">
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/coloring.css" rel="stylesheet" type="text/css">
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+  </head>
+  <body class="dark-scheme">
+    <div id="wrapper">
+      <div class="float-text show-on-scroll">
+        <span>
+          <a href="#">Scroll to top</a>
+        </span>
+      </div>
+      <div class="scrollbar-v show-on-scroll"></div>
+      <!-- page preloader begin -->
+      <div id="de-loader"></div>
+      <!-- page preloader close -->
+      <!-- header begin -->
+      <header class="transparent">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="de-flex sm-pt10">
+                <div class="de-flex-col">
+                  <div class="de-flex-col">
+                    <!-- logo begin -->
+                    <div id="logo">
+                      <a href="homepage-4.html">
+                        <img class="logo-main" src="images/logo.png" alt="">
+                        <img class="logo-mobile" src="images/logo-mobile.png" alt="">
+                      </a>
+                    </div>
+                    <!-- logo close -->
+                  </div>
+                </div>
+                <div class="de-flex-col header-col-mid">
+                  <ul id="mainmenu">
+                    <li>
+                      <a class="menu-item" href="homepage-4.html">Home</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="de-flex-col">
+                  <div class="menu_side_area">
+                    <a href="game-server-2.html" class="btn-main btn-line">
+                      <span>Get Cheats</span>
+                    </a>
+                    <span id="menu-btn"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- header close -->
+      <!-- content begin -->
+      <div class="no-bottom no-top" id="content">
+        <div id="top"></div>
+        <section class="jarallax">
+          <img src="images/background/galactic-oddsey.png" class="jarallax-img" alt="">
+          <div class="de-gradient-edge-top"></div>
+          <div class="de-gradient-edge-bottom"></div>
+          <div class="container z-1000">
+            <div class="row align-items-center">
+              <div class="col-lg-12">
+                <div class="subtitle wow fadeInUp mb-3">Purchase</div>
+              </div>
+              <div class="col-lg-6">
+                <h2 class="wow fadeInUp" data-wow-delay=".2s">Fortnite</h2>
+                <div class="spacer-20"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 mb-sm-30 wow fadeInRight" data-wow-delay=".2s">
+                <div class="de-pricing-plan h-100">
+                  <div class="d-title">Fortnite Paid</div>
+                  <div class="d-stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <div class="spacer-20"></div>
+                  <div class="d-specs">
+                    <div class="row">
+                      <div class="col-15">
+                        <div class="d-item"> UNDETECTED </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="spacer-50"></div>
+                  <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+                  <stripe-buy-button buy-button-id="buy_btn_1OVLEdAH0utja3JRDe90fAlh" publishable-key="pk_live_51ORGw9AH0utja3JRkjA0zYjBdShcWilFu2ZzvBN2PQcLk0zmzEBZNGZnEq8bacbBIpUIEmYwu5YTzwb9Ntu3H3Be00yPQB3NLm"></stripe-buy-button>
+                  <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+                  <stripe-buy-button buy-button-id="buy_btn_1OVLLxAH0utja3JRfjarEDEN" publishable-key="pk_live_51ORGw9AH0utja3JRkjA0zYjBdShcWilFu2ZzvBN2PQcLk0zmzEBZNGZnEq8bacbBIpUIEmYwu5YTzwb9Ntu3H3Be00yPQB3NLm"></stripe-buy-button>
+                  <div class="spacer-50"></div>
+                  <div class="col-15">
+                    <div class="d-item">
+                      <iframe width="340" height="216" src="https://www.youtube.com/embed/CoGLG9Jmoqc?si=TA-ELjaLdC9Hgp9f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 mb-sm-30 wow fadeInRight" data-wow-delay=".2s">
+                <div class="de-pricing-plan h-100">
+                      <div class="col-lg-16 mb-sm-30 wow fadeInRight" data-wow-delay=".2s">
+                        <div class="de-pricing-plan h-100">
+                          <div class="d-title">Features</div>
+                          <div class="spacer-20"></div>
+                          <div class="col-lg-12">
+                            <div class="d-item"> Aimbot, Visible Check, Controller, Knocked, Team Check, Draw FOV, Auto Shoot, FOV Slider, Smoothness (0/50). </div>
+                          </div>
+                          <div class="spacer-20></div>
+																												<div class=" col-lg-12">
+                            <div class="d-item"> Skeleton, Box, Line, Distance, Player Name, Platform, Weapon. </div>
+                          </div>
+                          <div class="spacer-20></div>
+																												<div class=" col-lg-12">
+                            <div class="d-item"> Streamproof, Reader, Thickness, Config, Visual Color. </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+    <!-- content close -->
+    <!-- footer begin -->
+    <footer>
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-4">
+            <img src="images/logo.png" alt="">
+            <div class="spacer-20"></div>
+            <p>Providing Game Cheats Since 2023</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <div class="widget">
+                  <h5>Game Cheats</h5>
+                  <ul></ul>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <div class="widget">
+                  <h5>Pages</h5>
+                  <ul>
+                    <li>
+                      <a href="homepage-4.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="game-server-2.html">Our Cheats</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="widget">
+              <div class="spacer-10"></div>
+              <div class="spacer-30"></div>
+              <div class="widget">
+                <h5>Join Us In Discord</h5>
+                <div class="social-icons">
+                  <a href="https://discord.gg/fncom">
+                    <i class="fa-brands fa-discord"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subfooter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="de-flex">
+                <div class="de-flex-col">
+                  <a href="homepage-4.html"> Copyright 2024 - Nebula eSports | Website Made By vy57 </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer close -->
+    </div>
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src='../../../www.google.com/recaptcha/api.js' async defer></script>
+    <script src="form.js"></script>
+  </body>
+</html>
