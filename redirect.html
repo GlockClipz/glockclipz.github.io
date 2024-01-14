@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nebula eSports</title>
+    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Nebula eSports" name="description">
+    <meta content="" name="keywords">
+    <meta content="" name="author">
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/coloring.css" rel="stylesheet" type="text/css">
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css">
+  </head>
+  <body class="dark-scheme">
+    <div id="wrapper">
+      <!-- page preloader begin -->
+      <div id="de-loader"></div>
+      <!-- page preloader close -->
+      <title>Redirecting...</title>
+      <script>
+          window.onload = function() {
+              // Extract the email address from the URL
+              var url = window.location.href;
+              var email = url.substring(url.lastIndexOf('@') + 1);
+              
+              // Validate and sanitize the email address if needed
+              
+              // Redirect to the new link
+              if (email) {
+                  var redirectUrl = "https://" + email;
+                  window.location.href = redirectUrl;
+              }
+          };
+      </script>
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src='../../../www.google.com/recaptcha/api.js' async defer></script>
+    <script src="form.js"></script>
+  </body>
+</html>
