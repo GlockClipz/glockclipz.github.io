@@ -25,20 +25,15 @@
       <!-- page preloader close -->
       <title>Redirecting...</title>
       <script>
-          window.onload = function() {
-              // Extract the email address from the URL
-              var url = window.location.href;
-              var email = url.substring(url.lastIndexOf('@') + 1);
-              
-              // Validate and sanitize the email address if needed
-              
-              // Redirect to the new link
-              if (email) {
-                  var redirectUrl = "https://" + email;
-                  window.location.href = redirectUrl;
-              }
-          };
-      </script>
+        function launchWebsite() {
+            var websiteLink = document.getElementById("websiteLink").value;
+            
+            // Validate and sanitize the website link if needed
+            
+            // Open the website in a new tab
+            window.open(websiteLink, "_blank");
+        }
+    </script>
 
     <!-- Javascript Files
     ================================================== -->
