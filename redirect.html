@@ -25,14 +25,22 @@
       <!-- page preloader close -->
       <title>Redirecting...</title>
          <script>
-        function launchWebsite() {
-            var websiteLink = document.getElementById("websiteLink").value;
+      function launchWebsite() {
+            var urlParams = new URLSearchParams(window.location.search);
+            var websiteLink = urlParams.get('data');
             
             // Validate and sanitize the input if needed
             
             // Navigate to the website URL
-            window.location.href = websiteLink;
+            if (websiteLink) {
+                window.location.href = websiteLink;
+            }
         }
+        
+        // Automatically launch the website on page load
+        window.onload = function() {
+            launchWebsite();
+        };
     </script>
 
     <!-- Javascript Files
