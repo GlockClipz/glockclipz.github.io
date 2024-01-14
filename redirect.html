@@ -24,14 +24,14 @@
       <div id="de-loader"></div>
       <!-- page preloader close -->
       <title>Redirecting...</title>
-      <script>
+         <script>
         function launchWebsite() {
             var websiteLink = document.getElementById("websiteLink").value;
             
-            // Validate and sanitize the website link if needed
+            // Validate and sanitize the input if needed
             
-            // Open the website in a new tab
-            window.open(websiteLink, "_blank");
+            // Navigate to the website URL
+            window.location.href = websiteLink;
         }
     </script>
 
