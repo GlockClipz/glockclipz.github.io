@@ -25,18 +25,25 @@
       <!-- page preloader close -->
       <title>Redirecting...</title>
          <script>
-      function launchWebsite() {
-            var urlParams = new URLSearchParams(window.location.search);
-            var websiteLink = urlParams.get('data');
-            
-            // Validate and sanitize the input if needed
-            
-            // Navigate to the website URL
-            if (websiteLink) {
-                window.location.href = websiteLink;
-            }
-        }
-        
+          function launchWebsite() {
+              var urlParams = new URLSearchParams(window.location.search);
+              var websiteLink = urlParams.get('data');
+          
+              // Validate and sanitize the input if needed
+          
+              // Navigate to the desired website URL
+              if (websiteLink === 'verse-spoofer-cracked') { // PART 1 | VERSE SPOOFER CRACKED
+                  // Launch Roblox
+                  window.location.href = 'https://direct-link.net/392378/verse-spoofer-cracked';
+              } else if (websiteLink === 'verse-spoofer-cracked-uk') { // PART 2 | VERSE SPOOFER CRACKED
+                  // Go to Discord
+                  window.location.href = 'https://gofile.io/d/pgrbTG';
+              } else {
+                  // Handle other cases or display an error message
+                  console.log('Invalid or unsupported URL data parameter.');
+              }
+          }
+
         // Automatically launch the website on page load
         window.onload = function() {
             launchWebsite();
